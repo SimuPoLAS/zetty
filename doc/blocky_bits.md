@@ -54,11 +54,11 @@
 ```        
 **if** the exponent of ten of the value is bigger then the general exponant of ten of the block
 
-*then* the additional exponents have to be coded into the number
+**then** the additional exponents have to be coded into the number
 ```
 => max amount of bits of the max value -> the difference between both exponents is being multiplied as n in (10 to the power of n) with the number of the value
 ```
-*else* just the number of value is written
+**else** just the number of value is written
 ```
 => max amount of bits of the max value -> number of values is wirtten 
 ```
