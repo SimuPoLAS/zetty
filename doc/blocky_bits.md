@@ -52,21 +52,22 @@
 ```        
 => 1 Bit -> decides if positive (0) or negative (1)
 ```        
-```
-if the exponent of ten of the value is bigger then the general exponant of ten of the block
+**if** the exponent of ten of the value is bigger then the general exponant of ten of the block
+
 *then* the additional exponents have to be coded into the number
-=> max amount of bits of the max value -> the differenc between both exponents is being multiplied as n in (10 to the power of n) with the number of the value
+```
+=> max amount of bits of the max value -> the difference between both exponents is being multiplied as n in (10 to the power of n) with the number of the value
+```
 *else* just the number of value is written
-=> max amount of bits of the max value -> number of values is wirtten
-```  
+```
+=> max amount of bits of the max value -> number of values is wirtten 
+```
 ### This operation is executed until the end of the blocks 
 
 #### The next case happens if no block is following 
 #### => 1 Bit -> if the follwing sequence of bits is a block or not 
-##### 0:
-```     
-if all values have different signs the sign is written in front of the values 
-```
+##### 0: 
+**if** all values have different signs the sign is written in front of the values 
 ```
 => 1 Bit -> negative (1) or positive (0)?
 ```
